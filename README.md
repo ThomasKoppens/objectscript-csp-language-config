@@ -1,6 +1,6 @@
 # cache-csp-formatter README
 
-This is the README for your extension "cache-csp-formatter". After writing up a brief description, we recommend including the following sections.
+This extension provides simple quality of life editing features you would expect for any programming language.
 
 ## Features
 
@@ -8,7 +8,7 @@ Describe specific features of your extension including screenshots of your exten
 
 For example if there is an image subfolder under your extension project workspace:
 
-\!\[feature X\]\(images/feature-x.png\)
+![hippo](https://github.com/ThomasKoppens/cache-csp-formatter/blob/main/assets/function-demo.gif)
 
 > Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
