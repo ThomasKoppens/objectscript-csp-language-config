@@ -6,7 +6,7 @@ classes and routines, but not Caché Server Pages.
 This extension implements a language configuration for them, adding expected features like auto-closing brackets and quotes.
 
 <p align="center">
-  <img src="https://github.com/ThomasKoppens/cache-csp-formatter/blob/main/assets/function-demo.gif" alt="Demo of auto-closing brackets, parentheses, quotes, and #server()">
+  <img src="assets/function-demo.gif" alt="Demo of auto-closing brackets, parentheses, quotes, and #server()">
 </p>
 
 ## Features
@@ -31,7 +31,7 @@ For auto-closing tags, it is recommended to install [Auto Close Tag](https://mar
 4. Click **Edit in settings.json**
 5. Add `"objectscript-csp"` to the list
 
-    <img alt="Auto Close Tag: Activate on Language setting" src="https://github.com/ThomasKoppens/cache-csp-formatter/blob/main/assets/auto-close-activate.png" style="width: 35rem;">
+    <img alt="Auto Close Tag: Activate on Language setting" src="assets/auto-close-activate.png" style="width: 35rem;">
 
 ### Preventing Auto-closing of Specific Tags
 
@@ -44,4 +44,4 @@ Follow steps 1-2 above and then:
 2. Click **Edit in settings.json**
 3. Add the tag to the list (**IMPORTANT:** the tag needs to be lowercase to work)
 
-    <img alt="Auto Close Tag: Excluded Tags setting" src="https://github.com/ThomasKoppens/cache-csp-formatter/blob/main/assets/auto-close-exclude.png" style="width: 35rem;">
+    <img alt="Auto Close Tag: Excluded Tags setting" src="assets/auto-close-exclude.png" style="width: 35rem;">
