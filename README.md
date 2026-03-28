@@ -1,71 +1,45 @@
-# cache-csp-formatter README
+# Language Configuration for ObjectScript CSPs
 
-This extension provides simple quality of life editing features you would expect for any programming language.
+The [InterSystems ObjectScript Extension](https://marketplace.visualstudio.com/items?itemName=intersystems-community.vscode-objectscript) provides language support for
+classes and routines, but not Caché Server Pages.
+
+This extension implements a language configuration for them, adding expected features like auto-closing brackets and quotes.
+
+![Demo of auto-closing brackets, parantheses, quotes, and #server()](https://github.com/ThomasKoppens/cache-csp-formatter/blob/main/assets/function-demo.gif)
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- **Auto-closing** brackets and quotes, as well as `#()#,` `#server()`, and `#call()`
+- **Wrapping** code with brackets
+- **Smart Indentation**: Indenting on enter in for loops, if statements, HTML tags, etc.
+- **Comment toggling**: Commenting out a code line or block with <kbd>Ctrl</kbd> + <kbd>/</kbd>
 
-For example if there is an image subfolder under your extension project workspace:
-
-![hippo](https://github.com/ThomasKoppens/cache-csp-formatter/blob/main/assets/function-demo.gif)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+This extension is designed to work alongside the official [InterSystems ObjectScript Extension](https://marketplace.visualstudio.com/items?itemName=intersystems-community.vscode-objectscript).
 
-## Extension Settings
+## Recommendations
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+For auto-closing tags, it is recommended to install [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag). To enable support for CSP files, follow these steps:
 
-For example:
+1. Press <kbd>Ctrl</kbd> + <kbd>,</kbd>
+2. Enter `auto-close-tag` in the search bar
+3. Find **Auto-close-tag: Activate On Language**
+4. Click **Edit in settings.json**
+5. Add `"objectscript-csp"` to the list
 
-This extension contributes the following settings:
+    <img alt="Auto Close Tag: Activate on Language setting" src="https://github.com/ThomasKoppens/cache-csp-formatter/blob/main/assets/auto-close-activate.png" style="width: 35rem;">
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+### Preventing Auto-closing of Specific Tags
 
-## Known Issues
+In some cases, such as `CSP:CLASS`, the tag is not meant to be closed.  To prevent
+the default behaviour, you can exclude them in the settings.
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+Follow steps 1-2 above and then:
 
-## Release Notes
+1. Find **Auto-close-tag: Excluded Tags**
+2. Click **Edit in settings.json**
+3. Add the tag to the list (**IMPORTANT:** the tag needs to be lowercase to work)
 
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+    <img alt="Auto Close Tag: Excluded Tags setting" src="https://github.com/ThomasKoppens/cache-csp-formatter/blob/main/assets/auto-close-exclude.png" style="width: 35rem;">
