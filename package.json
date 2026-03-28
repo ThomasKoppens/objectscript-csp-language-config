@@ -1,8 +1,8 @@
 {
-    "name": "cache-csp-formatter",
-    "displayName": "Caché CSP Editing Enhancements",
+    "name": "objectscript-csp-formatter",
+    "displayName": "ObjectScript CSP Language Configuration",
     "description": "Adds HTML-style auto-closing and Emmet support to InterSystems CSP files.",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.109.0"
     },
