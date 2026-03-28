@@ -14,7 +14,7 @@
         "vscode": "^1.109.0"
     },
     "publisher": "ThomasKoppens",
-    "icon": "https://github.com/ThomasKoppens/cache-csp-formatter/blob/main/assets/csp-icon.png",
+    "icon": "./assets/csp-icon.png",
     "categories": [
         "Other"
     ],
