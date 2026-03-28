@@ -3,6 +3,13 @@
     "displayName": "ObjectScript CSP Language Configuration",
     "description": "Adds HTML-style auto-closing and Emmet support to InterSystems CSP files.",
     "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ThomasKoppens/cache-csp-formatter"
+    },
+    "bugs": {
+        "url": "https://github.com/ThomasKoppens/cache-csp-formatter/issues"
+    },
     "engines": {
         "vscode": "^1.109.0"
     },
