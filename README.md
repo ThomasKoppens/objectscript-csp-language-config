@@ -5,7 +5,9 @@ classes and routines, but not Caché Server Pages.
 
 This extension implements a language configuration for them, adding expected features like auto-closing brackets and quotes.
 
-![Demo of auto-closing brackets, parantheses, quotes, and #server()](https://github.com/ThomasKoppens/cache-csp-formatter/blob/main/assets/function-demo.gif)
+<p align="center">
+  <img src="https://github.com/ThomasKoppens/cache-csp-formatter/blob/main/assets/function-demo.gif" alt="Demo of auto-closing brackets, parentheses, quotes, and #server()">
+</p>
 
 ## Features
 
