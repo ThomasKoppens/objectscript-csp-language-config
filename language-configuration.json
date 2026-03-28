@@ -1,5 +1,7 @@
 {
-  "lineComment": "//",
+  "comments": {
+    "lineComment": { "comment": "//" }
+  },
   "brackets": [
     [
       "(",
