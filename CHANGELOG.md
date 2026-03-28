@@ -1,9 +1,10 @@
 # Change Log
 
-All notable changes to the "cache-csp-formatter" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
+## [1.0.0] 28-Feb-2026
 
 - Initial release
+
+## [1.0.1] 28-Feb-2026
+
+- Fixes
+    - Fix images not showing in README.md.
