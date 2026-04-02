@@ -32,7 +32,8 @@
     { "open": "(", "close": ")", "notIn": ["string"] },
     { "open": "[", "close": "]", "notIn": ["string"] },
     { "open": "\"", "close": "\"", "notIn": ["string", "comment"] },
-    { "open": "'", "close": "'", "notIn": ["string", "comment"] },
+    // v1.0.2: prevent auto-closing of single quotes due to ObjectScript's negation operator
+    // { "open": "'", "close": "'", "notIn": ["string", "comment"] },
     // CACHE TAGS
     { "open": "#server(", "close": ")#" },
     { "open": "#call(", "close": ")#" },
