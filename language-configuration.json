@@ -2,20 +2,21 @@
   "comments": {
     "lineComment": { "comment": "//" }
   },
-  // "brackets": [
-  //   [
-  //     "(",
-  //     ")"
-  //   ],
-  //   [
-  //     "[",
-  //     "]"
-  //   ],
-  //   [
-  //     "{",
-  //     "}"
-  //   ]
-  // ],
+  "brackets": [
+    [
+      "(",
+      ")"
+    ],
+    [
+      "[",
+      "]"
+    ],
+    [
+      "{",
+      "}"
+    ]
+  ],
+  "colorizedBracketPairs": [],
   "indentationRules": {
     "increaseIndentPattern": "^((?!\\/\\/).)*(\\{[^}\"'`]*|\\([^)\"'`]*|\\[[^\\]\"'`]*)$",
     "decreaseIndentPattern": "^((?!.*?\\/\\*).*\\*/)?\\s*[\\)\\}\\]].*$"
