@@ -4,7 +4,8 @@
 
 - Initial release
 
-## [1.0.1] 28-Feb-2026
+
+## [1.0.2] 28-Feb-2026
 
 - Fixes
-    - Fix images not showing in README.md.
+    - Disable auto-closing for single quotes since they are used as the negation operaetor in ObjectScript
