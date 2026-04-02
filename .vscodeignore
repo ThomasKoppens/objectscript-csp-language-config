@@ -9,6 +9,6 @@ vsc-extension-quickstart.md
 **/*.map
 **/*.ts
 **/.vscode-test.*
-./test.csp
+test.csp
 vsixs/**
 node_modules/**
