@@ -11,3 +11,4 @@ vsc-extension-quickstart.md
 **/.vscode-test.*
 ./test.csp
 vsixs/**
+node_modules/**
