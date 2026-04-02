@@ -21,3 +21,10 @@
 
 - Fixes
     - Remove brackets config to avoid syntax highlighting issues
+
+
+## [1.0.5] 02-Mar-2026
+
+- Fixes
+    - Re-add brackets config for indentation config
+    - Add "colorizedBracketPairs": [] to prevent bracket colourisation and avoid syntax highlighting issues
