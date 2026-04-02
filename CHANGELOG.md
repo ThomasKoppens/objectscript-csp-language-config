@@ -15,3 +15,9 @@
 
 - Fixes
     - Remove unnecessarily downloaded files
+
+
+## [1.0.4] 02-Mar-2026
+
+- Fixes
+    - Remove brackets config to avoid syntax highlighting issues
