@@ -1,6 +1,7 @@
 {
   "comments": {
-    "lineComment": { "comment": "//" }
+    "lineComment": { "comment": "//" },
+    "blockComment": ["<!--", "-->"]
   },
   "brackets": [
     [
@@ -18,13 +19,17 @@
   ],
   "colorizedBracketPairs": [],
   "indentationRules": {
-    "increaseIndentPattern": "^((?!\\/\\/).)*(\\{[^}\"'`]*|\\([^)\"'`]*|\\[[^\\]\"'`]*)$",
-    "decreaseIndentPattern": "^((?!.*?\\/\\*).*\\*/)?\\s*[\\)\\}\\]].*$"
+    "increaseIndentPattern": "^\\s*<(?!(?:area|base|br|col|embed|hr|img|input|keygen|link|menuitem|meta|param|source|track|wbr))([_:\\w][_:\\w\\.\\-\\d]*)(?![^>]*/>)[^>]*>\\s*$|^((?!\\/\\/).)*(\\{[^}\"'`]*|\\([^)\"'`]*|\\[[^\\]\"'`]*)$",
+    "decreaseIndentPattern": "^\\s*</([_:\\w][_:\\w\\.\\-\\d]*)\\s*>.*$|^((?!.*?\\/\\*).*\\*/)?\\s*[\\)\\}\\]].*$"
   },
   "onEnterRules": [
     {
-      "beforeText": { "pattern": "<(?!(?:area|base|br|col|embed|hr|img|input|keygen|link|menuitem|meta|param|source|track|wbr))([_:\\w][_:\\w\\.\\-\\d]*)(?![^>]*/>)[^>]*>$" },
-      "afterText": { "pattern": "^\\s*</([_:\\w][_:\\w\\.\\-\\d]*)\\s*>" },
+      "beforeText": { 
+        "pattern": "<(?!(?:area|base|br|col|embed|hr|img|input|keygen|link|menuitem|meta|param|source|track|wbr))([_:\\w][_:\\w\\.\\-\\d]*)(?![^>]*/>)[^>]*>$" 
+      },
+      "afterText": { 
+        "pattern": "^\\s*</([_:\\w][_:\\w\\.\\-\\d]*)\\s*>" 
+      },
       "action": { "indent": "indentOutdent" }
     }
   ],
