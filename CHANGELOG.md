@@ -28,3 +28,11 @@
 - Fixes
     - Re-add brackets config for indentation config
     - Add "colorizedBracketPairs": [] to prevent bracket colourisation and avoid syntax highlighting issues
+
+## [1.1.0] 05-Mar-2026
+
+- Features
+    - Added HTML comments through block quotes (Shift + Alt + A by default)
+
+- Fixes
+    - General improvements to cursor placement on pressing Enter / Tab
